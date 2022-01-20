@@ -6,7 +6,7 @@
 	</p>
 	<br />
 	<p>
-		<a href="https://discord.com/invite/mNGKntQH32" alt="Hentaila-node's Discord support server">
+		<a href="https://discord.com/invite/mNGKntQH32" alt="Servidor de soporte de hentaila.js">
 			<img src="https://img.shields.io/discord/767675922119393301?color=3181b0&logo=discord&logoColor=white"></img>
 		</a>
 		<a href="https://www.npmjs.com/package/hentaila">
@@ -24,7 +24,7 @@
 ## This module contains information that may not be suitable for minors. Please proceed with caution.
 
 ## Acerca de
-`hentaila-node` es un módulo de Node.js para poder interactuar con [HentaiLa](https://hentaila.com/) usando funciones sencillas.
+`hentaila` es un módulo de Node.js para poder interactuar con [HentaiLa](https://hentaila.com/) usando funciones sencillas.
 
 **Advertencia:** Este módulo no está de ninguna manera afiliado a HentaiLa. Todo usuario de este módulo releva de todo cargo a los creadores, desarrolladores y todo aquél involucrado en el desarrollo del módulo.
 
@@ -32,7 +32,7 @@
 **¿Cómo instalarlo?**
 
 ```sh-session
-npm install hentaila-node
+npm install hentaila
 ```
 
 ## Ejemplos de uso
@@ -40,7 +40,7 @@ npm install hentaila-node
 #### Buscar un hentai:
 ```js
 // Requerir el módulo
-const HentaiLa = require("hentaila-node");
+const HentaiLa = require("hentaila");
 
 // Buscar un hentai
 HentaiLa.search("overflow").then(async resultados => {
