@@ -74,7 +74,7 @@ HentaiLa.getEpisode("https://hentaila.com/ver/overflow-1").then(async info => {
 });
 ```
 
-[![Resultado del "getEpisode"](https://i.imgur.com/GKf35zG.png "Resultado del 'getEpisode'")](https://i.imgur.com/GKf35zG.png)
+[![Resultado del "getEpisode"](https://i.imgur.com/oFESkzv.png "Resultado del 'getEpisode'")](https://i.imgur.com/oFESkzv.png)
 
 
 ## Soporte
