@@ -105,7 +105,7 @@ class Episode {
 
 		var similars = htmlText.match(/alt=".+"/gi);
 		if(similars) {
-			this.similars = similars.map(x => x.slice(`alt="`.length, -1).trim());
+			this.similars = similars.map(x => x.slice(`alt="Thumb `.length, -1).trim());
 		}
 
 		var videosText = htmlText.match(/videos = (.)+/g);
