@@ -1,6 +1,6 @@
 {
   "name": "hentaila",
-  "version": "0.1.2-alpha",
+  "version": "0.1.3-alpha",
   "description": "Un módulo para interactuar con la API de HentaiLa.",
   "main": "index.js",
   "scripts": {
